@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-admob-mmedia",
+  "version": "1.6.1",
+  "description": "Cordova plugin for AdMob adapter to Millennial Media Ads",
+  "cordova": {
+    "id": "cordova-plugin-admob-mmedia",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floatinghotpot/cordova-admob-pro.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "ad",
+    "mmedia",
+    "rjfun"
+  ],
+  "author": {
+    "name": "Liming Xie"
+  },
+  "license": "MIT"
+}

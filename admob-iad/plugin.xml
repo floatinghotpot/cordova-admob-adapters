@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="cordova-plugin-admob-iad"
+	version="1.0.2">
+      
+    <name>AdMob Mediation Adapter for iAd</name>
+	<description>AdMob Mediation Adapter for iAd</description>
+	<keywords>admob,iad,mediation</keywords>
+    <repo>https://github.com/floatinghotpot/cordova-admob-pro.git</repo>
+    <issue>https://github.com/floatinghotpot/cordova-admob-pro/issues</issue>
+
+	<engines>
+	    <engine name="cordova" version=">=5.0" />
+	</engines>
+
+    <dependency id="cordova-plugin-admobpro"/>
+
+     <platform name="ios">    
+	    <source-file src="libAdapterIAd.a" framework="true"/>
+	    <framework src="iAd.framework"/>
+	</platform>
+
+</plugin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="cordova-plugin-admob-mmedia"
+	version="1.6.1">
+      
+    <name>AdMob Mediation Adapter for Millennial Media</name>
+	<description>AdMob Mediation Adapter for Millennial Media</description>
+	<keywords>admob,mmedia,mediation</keywords>
+    <repo>https://github.com/floatinghotpot/cordova-admob-pro.git</repo>
+    <issue>https://github.com/floatinghotpot/cordova-admob-pro/issues</issue>
+
+	<engines>
+	    <engine name="cordova" version=">=5.0" />
+	</engines>
+
+    <dependency id="cordova-plugin-admobpro"/>
+    <dependency id="cordova-plugin-mmedia"/>
+    
+    <platform name="android">
+        <source-file src="MMAdMobAdapter_1_6_0.jar" target-dir="libs" />
+     </platform>
+
+     <platform name="ios">    
+          <source-file src="libAdapterMillennial.a" framework="true"/>
+	</platform>
+
+</plugin>
