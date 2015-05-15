@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-admob-inmobi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cordova plugin for AdMob adapter to InMobi Ads",
   "cordova": {
     "id": "cordova-plugin-admob-inmobi",

@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="cordova-plugin-admob-inmobi"
-	version="1.0.1">
+	version="1.0.2">
       
     <name>AdMob Mediation Adapter for InMobi</name>
 	<description>AdMob Mediation Adapter for InMobi</description>
@@ -12,7 +12,7 @@
     <issue>https://github.com/floatinghotpot/cordova-admob-pro/issues</issue>
 
 	<engines>
-	    <engine name="cordova" version=">=5.0" />
+	    <engine name="cordova" version=">=3.5" />
 	</engines>
 
     <dependency id="cordova-plugin-admobpro"/>
