@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="cordova-plugin-admob-flurry"
-	version="5.4.3">
+	version="5.4.4">
       
     <name>AdMob Mediation Adapter for Flurry Ads</name>
 	<description>AdMob Mediation Adapter for Flurry Ads</description>
@@ -15,7 +15,7 @@
 	    <engine name="cordova" version=">=3.5" />
 	</engines>
 
-    <dependency id="cordova-plugin-admobpro"/>
+    <!-- dependency id="cordova-plugin-admobpro"/ -->
     <dependency id="cordova-plugin-flurry"/>
     
     <platform name="android">

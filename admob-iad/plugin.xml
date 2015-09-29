@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="cordova-plugin-admob-iad"
-	version="1.0.3">
+	version="1.0.6">
       
     <name>AdMob Mediation Adapter for iAd</name>
 	<description>AdMob Mediation Adapter for iAd</description>
@@ -15,7 +15,7 @@
 	    <engine name="cordova" version=">=3.5" />
 	</engines>
 
-    <dependency id="cordova-plugin-admobpro"/>
+    <!-- dependency id="cordova-plugin-admobpro"/ -->
 
      <platform name="ios">    
 	    <source-file src="libAdapterIAd.a" framework="true"/>

@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="cordova-plugin-admob-facebook"
-	version="1.0.2">
+	version="1.0.3">
       
     <name>AdMob Mediation Adapter for Facebook Audience Network</name>
 	<description>AdMob Mediation Adapter for Facebook Audience Network</description>
@@ -15,7 +15,7 @@
 	    <engine name="cordova" version=">=3.5" />
 	</engines>
 
-    <dependency id="cordova-plugin-admobpro"/>
+    <!-- dependency id="cordova-plugin-admobpro"/ -->
     <dependency id="cordova-plugin-facebookads"/>
     
     <platform name="android">
