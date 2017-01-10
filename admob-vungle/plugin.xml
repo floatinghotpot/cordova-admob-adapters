@@ -2,12 +2,12 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	id="cordova-plugin-admob-inmobi"
-	version="1.0.4">
+	id="cordova-plugin-admob-vungle"
+	version="1.0.0">
       
-    <name>AdMob Mediation Adapter for InMobi</name>
-	<description>AdMob Mediation Adapter for InMobi</description>
-	<keywords>admob,inmobi,mediation</keywords>
+    <name>AdMob Mediation Adapter for Vungle</name>
+	<description>AdMob Mediation Adapter for Vungle</description>
+	<keywords>admob,mediation,vungle</keywords>
     <repo>https://github.com/floatinghotpot/cordova-admob-pro.git</repo>
     <issue>https://github.com/floatinghotpot/cordova-admob-pro/issues</issue>
 
@@ -15,15 +15,15 @@
 	    <engine name="cordova" version=">=3.5" />
 	</engines>
 
-    <dependency id="cordova-plugin-admobpro"/>
-    <dependency id="cordova-inmobi-sdk"/>
+    <!-- dependency id="cordova-plugin-admobpro"/ -->
+    <!-- dependency id="cordova-plugin-vungle"/ -->
     
     <platform name="android">
-        <source-file src="libadapterinmobi.jar" target-dir="libs" />
+        <source-file src="FacebookAdapter.jar" target-dir="libs" />
      </platform>
 
      <platform name="ios">    
-          <source-file src="libAdapterInMobi.a" framework="true"/>
+          <source-file src="libAdapterFacebook.a" framework="true"/>
 	</platform>
 
 </plugin>

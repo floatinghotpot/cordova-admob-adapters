@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-admob-inmobi",
-  "version": "1.0.4",
-  "description": "Cordova plugin for AdMob adapter to InMobi Ads",
+  "name": "cordova-plugin-admob-vungle",
+  "version": "1.0.0",
+  "description": "Cordova plugin for AdMob adapter to Vungle",
   "cordova": {
-    "id": "cordova-plugin-admob-inmobi",
+    "id": "cordova-plugin-admob-vungle",
     "platforms": [
       "ios",
       "android"
@@ -17,7 +17,7 @@
     "cordova",
     "ecosystem:cordova",
     "ad",
-    "inmobi",
+    "vungle",
     "rjfun"
   ],
   "author": {
