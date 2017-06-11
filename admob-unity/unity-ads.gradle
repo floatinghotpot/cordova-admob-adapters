@@ -1,0 +1,13 @@
+repositories {
+   jcenter()
+   flatDir {
+       dirs 'libs'
+   }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.google.android.gms:play-services-ads:+'
+    compile(name:'unity-ads', ext:'aar')
+    compile 'com.google.ads.mediation:unity:+'
+}

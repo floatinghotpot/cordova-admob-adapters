@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="cordova-plugin-admob-unityads"
+  version="0.5.0">
+
+  <name>AdMob Mediation Adapter for Facebook Audience Network</name>
+  <description>AdMob Mediation Adapter for Facebook Audience Network</description>
+  <keywords>admob,mediation,facebook</keywords>
+  <repo>https://github.com/floatinghotpot/cordova-admob-pro.git</repo>
+  <issue>https://github.com/floatinghotpot/cordova-admob-pro/issues</issue>
+
+  <engines>
+    <engine name="cordova" version=">=3.5" />
+  </engines>
+
+  <!-- dependency id="cordova-plugin-admobpro"/ -->
+
+  <platform name="android">
+    <framework src="unity-ads.gradle" custom="true" type="gradleReference" />
+    <resource-file src="unity-ads.aar" target-dir="libs" />
+   </platform>
+
+   <platform name="ios">
+     <framework src="UnityAds.framework" custom="true" />
+     <framework src="UnityAdapter.framework" custom="true" />
+  </platform>
+
+</plugin>
