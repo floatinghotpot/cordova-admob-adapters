@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-admob-unityads",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Cordova plugin for AdMob adapter to Unity Ads",
   "cordova": {
     "id": "cordova-plugin-admob-unityads",
