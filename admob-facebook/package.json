@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-admob-facebook",
-  "version": "1.0.3",
+  "version": "4.23.0",
   "description": "Cordova plugin for AdMob adapter to Facebook AudienceNetwork Ads",
   "cordova": {
     "id": "cordova-plugin-admob-facebook",
